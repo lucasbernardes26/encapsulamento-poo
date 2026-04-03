@@ -1,6 +1,4 @@
 import entities.BankAccount;
-
-import java.util.Objects;
 import java.util.Scanner;
 
 
@@ -10,7 +8,7 @@ public class Main {
         int opc;
 
         Scanner sc = new Scanner(System.in);
-        BankAccount bankAccount = new BankAccount();
+        BankAccount bankAccount;
         int numberAccount;
         String holder;
         double balance;

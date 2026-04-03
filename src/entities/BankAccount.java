@@ -1,7 +1,5 @@
 package entities;
 
-import java.sql.SQLOutput;
-
 public class BankAccount {
     private int accountNumber;
     private String titularNameAccount;
